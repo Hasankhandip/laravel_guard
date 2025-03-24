@@ -1,0 +1,35 @@
+.home-page {
+	padding: 100px 0;
+    height: 100vh;
+}
+.home-page{
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.home-title{
+    color: #000;
+    margin-bottom: 50px;
+    text-align: center;
+}
+nav{
+    a {
+        color: #000;
+        border: 1px solid #000;
+    }
+}
+.home-box {
+    padding:70px 50px ;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+    border-right:1px solid #505050 ;
+    &:last-child{
+        border: none;
+    }
+}
+.home-logo{
+    margin-bottom: 50px;
+}
